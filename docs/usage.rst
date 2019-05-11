@@ -4,4 +4,4 @@ Usage
 
 To use Fabric Docker in a project::
 
-    import fabricdocker
+    from fabricdocker import compose
