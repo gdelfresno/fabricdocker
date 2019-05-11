@@ -22,7 +22,7 @@ deploy:
   distributions: sdist bdist_wheel
   user: gdelfresno
   password:
-    secure: PLEASE_REPLACE_ME
+    secure: bwGICuohncUbHe8sMpiN9KM+jLiXBUTNHIs3jBGW+pFGZB7CRFqzEObFenYmQZ21rOvRMotNIy3v7PRuEOmSN7mdQ0j9GeFtJvoacf96cPNRRCehpMUK3kJPKYW91DnaAM2bvYnck+XOMH/6COlN2yrRCr8+fdflbo2KSh/n1QeUpfXAE+Tl3PavlpzIPW00LMwfZ0C1kjrw9J7ksQSnWJY2JhAStLdoZIgibcwBM6JIA1Gf8oA5O1iZIGtW6SR1GNAgNddlC7y7n9dnvewXhoQN9VDGoRiQNvjh5pZTf/nG/FCUiXt4IwiRpF53g/dovyd6t5RjtgaPSGOQnX3hKlnqAdL596SuH0HvUWGTwJrQ8+0EDAEltt/6ThRRG250fbW67OTp/cwjTQabL3N44lbkO18/n6w4kA34kppqQHd50owJLICKEQiLtAQlgZk6yf1LqXXYFeAZMI0ew5SPhgvfGcpg2CT2sisaIM8rcu2X4EqfG9nkNxlZhALTs4+SQV5EUGBYTj/45KBZ4TsIfFUCggxBXqZ/1HfmwMIVecGddmEqc5sjWsRFQnXuiK9gQ++N8cMlxsXMSykoJz7WA1xJS77IZUXJyw2HIFefg36wJLuOymIz9hxsba2iKfyZm4fbPdEzNu847QgG5CFKriAvCkgCGHGQBShwxdmxQ7I=
   on:
     tags: true
     repo: gdelfresno/fabricdocker
