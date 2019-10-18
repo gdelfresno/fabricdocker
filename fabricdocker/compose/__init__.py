@@ -15,9 +15,22 @@ def build(c):
 
 @task
 def up(c, services='', background=True):
-    run_compose_command(
-        c, f'up{" -d" if background else ""} {services}'
-    )
+    run_compose_command(c, f'up{" -d" if background else ""} {services}')
+
+
+@task
+def stop(c, services=''):
+    run_compose_command(c, f'stop {services}')
+
+
+@task
+def start(c, services=''):
+    run_compose_command(c, f'start {services}')
+
+
+@task
+def restart(c, services=''):
+    run_compose_command(c, f'restart {services}')
 
 
 @task
@@ -38,4 +51,3 @@ def display_compose_stats(c):
 
 ns = Collection(compose_info)
 ns.configure({'compose': {'file': []}})
-
