@@ -3,11 +3,13 @@ from invoke import Collection
 
 
 @task
-def run_compose_command(c, command):
+def run_compose_command(c, command, **kwargs):
     compose_file = ':'.join(c.compose.file)
-    c.run(f'COMPOSE_FILE={compose_file} docker-compose {command}')
+    command = f'COMPOSE_FILE={compose_file} docker-compose {command}'
+    c.run(command, **kwargs)
 
 
+# TODO Allow custom COMPOSE_FILE
 @task
 def build(c):
     c.run('docker-compose build')
