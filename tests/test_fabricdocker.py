@@ -6,8 +6,6 @@
 
 import unittest
 
-from fabricdocker import fabricdocker
-
 
 class TestFabricdocker(unittest.TestCase):
     """Tests for `fabricdocker` package."""
