@@ -8,6 +8,7 @@ Subpackages
    :maxdepth: 4
 
    fabricdocker.compose
+   fabricdocker.docker
 
 Submodules
 ----------
