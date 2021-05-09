@@ -43,7 +43,9 @@ setup(
     include_package_data=True,
     keywords='fabricdocker',
     name='fabricdocker',
-    packages=find_packages(include=['fabricdocker', 'fabricdocker.compose']),
+    packages=find_packages(include=[
+        'fabricdocker', 'fabricdocker.compose', 'fabricdocker.docker'
+    ]),
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
