@@ -12,7 +12,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-    'fabric==2.6.0',
+    'fabric==2.7.0',
     'invoke==1.5.0'
 ]
 
