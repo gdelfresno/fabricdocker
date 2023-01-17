@@ -13,7 +13,7 @@ with open('HISTORY.rst') as history_file:
 
 requirements = [
     'fabric==2.6.0',
-    'invoke==1.5.0'
+    'invoke==2.0.0'
 ]
 
 setup_requirements = []
